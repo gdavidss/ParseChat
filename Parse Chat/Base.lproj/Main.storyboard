@@ -98,7 +98,7 @@
         <!--Chat View Controller-->
         <scene sceneID="Ev7-B4-bGt">
             <objects>
-                <viewController id="AdA-wT-6DM" customClass="ChatViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AdA-wT-6DM" customClass="ChatViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9p2-nA-OPa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,7 +189,7 @@
         <!--Nav-->
         <scene sceneID="MVT-Fz-bro">
             <objects>
-                <navigationController title="Nav" automaticallyAdjustsScrollViewInsets="NO" id="gWs-Vn-hYg" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ChatNavigationController" title="Nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gWs-Vn-hYg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gib-O9-zcE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
