@@ -12,6 +12,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    self.messageField.layer.cornerRadius = 4;
+    self.messageField.clipsToBounds = true;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

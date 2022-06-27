@@ -20,6 +20,9 @@
 - (void)viewDidLoad {
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view
     [self fetchMessages];
