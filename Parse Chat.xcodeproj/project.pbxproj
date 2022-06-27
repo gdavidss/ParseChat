@@ -21,6 +21,8 @@
 		6A34C8E8286A0B830047D286 /* Parse_ChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A34C8E7286A0B830047D286 /* Parse_ChatUITests.m */; };
 		6A34C8EA286A0B830047D286 /* Parse_ChatUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A34C8E9286A0B830047D286 /* Parse_ChatUITestsLaunchTests.m */; };
 		6A5D1C9A286A12F100B78922 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D1C99286A12F100B78922 /* LoginView.m */; };
+		6A5D1C9D286A179500B78922 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D1C9C286A179500B78922 /* ChatViewController.m */; };
+		6A5D1CA0286A1CB100B78922 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D1C9F286A1CB100B78922 /* ChatCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		6A34C8E9286A0B830047D286 /* Parse_ChatUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parse_ChatUITestsLaunchTests.m; sourceTree = "<group>"; };
 		6A5D1C98286A12F100B78922 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		6A5D1C99286A12F100B78922 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		6A5D1C9B286A179500B78922 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		6A5D1C9C286A179500B78922 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		6A5D1C9E286A1CB100B78922 /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		6A5D1C9F286A1CB100B78922 /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
 		822F676642BFA646D2B5950B /* Pods-Parse Chat-Parse ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Chat-Parse ChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parse Chat-Parse ChatUITests/Pods-Parse Chat-Parse ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7E3090614E06A25FD474C1E /* Pods_Parse_Chat_Parse_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parse_Chat_Parse_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20B5C101C14200C4AFD0FD1 /* Pods-Parse Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parse Chat.release.xcconfig"; path = "Target Support Files/Pods-Parse Chat/Pods-Parse Chat.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,15 +144,19 @@
 				6A34C8C2286A0B820047D286 /* AppDelegate.m */,
 				6A34C8C4286A0B820047D286 /* SceneDelegate.h */,
 				6A34C8C5286A0B820047D286 /* SceneDelegate.m */,
+				6A5D1C98286A12F100B78922 /* LoginView.h */,
+				6A5D1C99286A12F100B78922 /* LoginView.m */,
 				6A34C8C7286A0B820047D286 /* ViewController.h */,
 				6A34C8C8286A0B820047D286 /* ViewController.m */,
 				6A34C8CA286A0B820047D286 /* Main.storyboard */,
+				6A5D1C9E286A1CB100B78922 /* ChatCell.h */,
+				6A5D1C9F286A1CB100B78922 /* ChatCell.m */,
+				6A5D1C9B286A179500B78922 /* ChatViewController.h */,
+				6A5D1C9C286A179500B78922 /* ChatViewController.m */,
 				6A34C8CD286A0B830047D286 /* Assets.xcassets */,
 				6A34C8CF286A0B830047D286 /* LaunchScreen.storyboard */,
 				6A34C8D2286A0B830047D286 /* Info.plist */,
 				6A34C8D3286A0B830047D286 /* main.m */,
-				6A5D1C98286A12F100B78922 /* LoginView.h */,
-				6A5D1C99286A12F100B78922 /* LoginView.m */,
 			);
 			path = "Parse Chat";
 			sourceTree = "<group>";
@@ -420,7 +430,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A34C8C9286A0B820047D286 /* ViewController.m in Sources */,
+				6A5D1CA0286A1CB100B78922 /* ChatCell.m in Sources */,
 				6A34C8C3286A0B820047D286 /* AppDelegate.m in Sources */,
+				6A5D1C9D286A179500B78922 /* ChatViewController.m in Sources */,
 				6A34C8D4286A0B830047D286 /* main.m in Sources */,
 				6A5D1C9A286A12F100B78922 /* LoginView.m in Sources */,
 				6A34C8C6286A0B820047D286 /* SceneDelegate.m in Sources */,
